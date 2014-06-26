@@ -1,0 +1,14 @@
+language: python
+python:
+  - 2.7
+install:
+  - CFLAGS=-O0 pip install lxml
+  - pip install -r dev_requirements.txt
+script:
+  - coverage run setup.py test
+  - python setup.py test_on_postgres
+  - coverage report -m --fail-under 100
+  - flake8 .
+notifications:
+  email:
+  - ci-notify@openlabs.co.in
