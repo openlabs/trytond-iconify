@@ -19,7 +19,17 @@ class Icon:
 
     # Dictionary of icons which need to be replaced.
     # eg. 'tryton-list': 'icons/name-of-icon.svg'
-    better_icons = {}
+    better_icons = {
+        'tryton-calendar':'icons/tryton-calendar.svg',
+        'tryton-clock':'icons/tryton-clock.svg',
+        'tryton-graph':'icons/tryton-graph.svg',
+        'tryton-image-missing':'icons/tryton-image-missing.svg',
+        'tryton-list':'icons/tryton-list.svg',
+        'tryton-presentation':'icons/tryton-presentation.svg',
+        'tryton-readonly':'icons/tryton-read-only.svg',
+        'tryton-spreadsheet':'icons/tryton-spreadsheet.svg',
+        'tryton-tree':'icons/tryton-tree.svg'
+    }
 
     def get_icon(self, name):
         """
