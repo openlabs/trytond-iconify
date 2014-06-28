@@ -28,7 +28,12 @@ class Icon:
         'tryton-presentation':'icons/tryton-presentation.svg',
         'tryton-readonly':'icons/tryton-read-only.svg',
         'tryton-spreadsheet':'icons/tryton-spreadsheet.svg',
-        'tryton-tree':'icons/tryton-tree.svg'
+        'tryton-tree':'icons/tryton-tree.svg',
+        'tryton-party':'icons/tryton-party.svg',
+        'tryton-financial':'icons/tryton-financial.svg',
+        'tryton-inventory':'icons/tryton-inventory.svg',
+        'tryton-product':'icons/tryton-product.svg',
+        'tryton-currency':'icons/tryton-currency.svg'
     }
 
     def get_icon(self, name):
