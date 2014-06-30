@@ -1,7 +1,7 @@
-Fresh icons for old tryton
-==========================
+Get fresh icons for your Tryton
+===============================
 
-**"My tryton looks old!"** -- *ninja OpenERP developer!*
+**"My tryton looks old!"** -- *ninja OpenERP developer who switched to Tryton!*
 
 Not anymore! get rid of the old 90's look and get fresh icons for your Tryton.
 
